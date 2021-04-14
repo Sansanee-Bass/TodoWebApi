@@ -1,3 +1,5 @@
+using System;
+
 namespace TodoWebAPI.Models.Todo
 {
 
@@ -9,6 +11,8 @@ namespace TodoWebAPI.Models.Todo
 
         public bool IsComplete { get; set; }
         public Person Responsible { get; set; }
+
+        public DateTime DateTime { get; set; }
 
         // public virtual Person Resposible { get; set; }
     }
